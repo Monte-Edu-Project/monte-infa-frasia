@@ -2,12 +2,29 @@
 <html>
   <head>
     <title>Kasia Frasia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/style/index.css" />
   </head>
 
   <body>
-    <div>
-      <img src="assets/logos/signal-logo.svg" />
-    </div>
+    <main>
+      <div class="sensor-container">
+        <img class="sensor-logo" src="assets/logos/signal-logo.svg" />
+        <div class="sensor-info-container">
+          <span class="sensor-info__label sensor-info__label--secondary"
+            >Avg for Jun 12</span
+          >
+          <h2 class="sensor-info__label">13</h2>
+          <span class="sensor-info__label sensor-info__label--secondary"
+            >PM2.5 µg/m</span
+          >
+        </div>
+      </div>
+    </main>
   </body>
 </html>
